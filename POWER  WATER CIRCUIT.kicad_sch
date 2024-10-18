@@ -1,0 +1,97 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ed26ffac-5a1b-47b4-af6c-0a896f4f3a48)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 216.4588 55.0672) (size 40.64 54.61) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 75639c68-7aee-455f-86ce-25200fb73312)
+    (property "Sheetname" "Communication" (at 216.4588 54.3556 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "communication.kicad_sch" (at 216.4588 110.2618 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "RECTIFIED CIRCUIT"
+        (path "/15d8fe1c-6bc9-406f-8c82-4650b46b74f7" (page "5"))
+      )
+      (project "POWER  WATER CIRCUIT"
+        (path "/ed26ffac-5a1b-47b4-af6c-0a896f4f3a48" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 57.7088 56.3372) (size 49.53 53.34) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7f9e1c6e-3769-492f-b405-f06b13d3c36f)
+    (property "Sheetname" "Power" (at 57.7088 55.6256 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 57.7088 110.2618 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 57.7088 56.3372 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "RECTIFIED CIRCUIT"
+        (path "/15d8fe1c-6bc9-406f-8c82-4650b46b74f7" (page "2"))
+      )
+      (project "POWER  WATER CIRCUIT"
+        (path "/ed26ffac-5a1b-47b4-af6c-0a896f4f3a48" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 170.7388 55.0672) (size 40.64 54.61) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c21165f6-568f-4851-a642-af7d4e0c0ac4)
+    (property "Sheetname" "Peripherals" (at 170.7388 54.3556 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Peripherals.kicad_sch" (at 170.7388 110.2618 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "RECTIFIED CIRCUIT"
+        (path "/15d8fe1c-6bc9-406f-8c82-4650b46b74f7" (page "4"))
+      )
+      (project "POWER  WATER CIRCUIT"
+        (path "/ed26ffac-5a1b-47b4-af6c-0a896f4f3a48" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 117.3988 55.0672) (size 46.99 54.61) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e160eab0-0e68-46e4-80f2-3805f9ba29a3)
+    (property "Sheetname" "MCU" (at 117.3988 54.3556 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 117.3988 110.2618 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "RECTIFIED CIRCUIT"
+        (path "/15d8fe1c-6bc9-406f-8c82-4650b46b74f7" (page "3"))
+      )
+      (project "POWER  WATER CIRCUIT"
+        (path "/ed26ffac-5a1b-47b4-af6c-0a896f4f3a48" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
